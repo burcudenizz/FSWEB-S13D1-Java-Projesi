@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-
+        //Barking Dog
         boolean result = shouldWakeUp(true, 1);
         System.out.println(result);
 
@@ -14,6 +14,8 @@ public class Main {
         boolean result4 = shouldWakeUp(true, -1);
         System.out.println(result4);
 
+        //Age Detection
+
         boolean result5 = hasTeen(9,99,19);
         System.out.println(result5);
 
@@ -22,6 +24,8 @@ public class Main {
 
         boolean result7 = hasTeen(22,23,34);
         System.out.println(result7);
+
+        //Cat Playing
 
         boolean result8 = isCatPlaying(true,10);
         System.out.println(result8);
@@ -32,11 +36,15 @@ public class Main {
         boolean result10 = isCatPlaying(false,35);
         System.out.println(result10);
 
+        //Area Calculation for Rectangular
+
         double result11 = area(5.0,4.0);
         System.out.println(result11);
 
         double result12 = circleArea(5.0);
         System.out.println(result12);
+
+        //Area Calculation for Circle
 
         double result13 = circleArea(-1);
         System.out.println(result13);
